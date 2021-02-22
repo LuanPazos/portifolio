@@ -1,2 +1,2 @@
 # portifolio
-portifolio ddo desenvolvedor
+portifolio do desenvolvedor
