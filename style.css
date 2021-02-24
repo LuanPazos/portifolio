@@ -321,6 +321,13 @@ header{
 
 }
 
+.sessao-certificados{
+    background-color: #f1eef5;
+    width: 100%;
+    height: 32.3rem;
+}
+
+
 .certificados{
     display: flex;
     justify-content:space-evenly ;
@@ -330,6 +337,7 @@ header{
     width: 25rem;
     height: 25rem;
     position: relative;
+    top: 2rem;
 }
 
 .card-img-wrapper{
@@ -345,6 +353,7 @@ header{
     height: 100%;
     opacity: .8;
     transition: opacity .3s;
+    border-radius: .5rem;
 }
 
 .card:hover .card-img-wrapper img{
@@ -383,6 +392,19 @@ header{
     margin-bottom: 2rem;
 }
 
+.btn{
+    background: #59C173;
+    background: -webkit-linear-gradient(to right, #5D26C1, #a17fe0, #72c787);
+    background: linear-gradient(to right, #5D26C1, #a17fe0, #72c787);
+    font-family: var(--font-action);
+    font-size: 1.5rem;
+    color: #eee;
+    border-radius: .5rem;
+    border: none;
+    box-shadow: 0 .1rem .8rem rgba(0,0,0,0.4);
+    cursor: pointer;
+}
+
 .card-info button{
     width: 8rem;
     height: 2.5rem;
@@ -395,10 +417,106 @@ header{
     border-radius: .5rem;
     border: none;
     box-shadow: 0 .1rem .8rem rgba(0,0,0,0.4);
+    cursor: pointer;
 }
 
 .card:hover .card-info{
     bottom: 2rem;
     opacity: 1;
     visibility: visible;
+}
+
+.sessao-contato{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(49, 46, 54);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contato-wrapper{
+    width: 60%;
+    height: 30rem;
+    display: flex;
+    box-shadow: 0 3rem 5rem rgba(0,0,0,0.5)
+}
+
+.contato-left{
+    width: 35%;
+    background:
+     linear-gradient(rgba(15,15,15, 0.6),rgba(22,22,22,0.9)),
+      url(imagens/contact.jpg);
+    background-size: cover;
+    background-position-x: center;
+}
+
+.contato-right{
+    width: 65%;
+    background-color: #F1EEF5;
+    padding: 1rem 3rem 5rem 5rem;
+}
+
+.sessao-contato h1{
+    width: 100%;
+    text-align: center;
+    font-family: var(--font-primary);
+    color: #272727;
+    font-size: 3rem;
+    font-weight: lighter;
+}
+
+.sessao-contato form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-group{
+    position: relative;
+}
+
+.field{
+    background: transparent;
+    border: none;
+    width: 20rem;
+    font-size: 1.5rem;
+    font-family: var(--font-secundary);
+    border-bottom: 1px dashed #636363;
+    outline: none;
+    margin: 2rem 0;
+}
+
+.input-group textarea{
+    padding-top: 1rem;
+    max-width: 25rem;
+    max-height: 3rem;
+}
+
+.field-label{
+    position: absolute;
+    left: 0;
+    top: 2rem;
+    font-size: 1.2rem;
+    font-family: var(--font-secundary);
+    text-transform: uppercase;
+    transition: all .3s;
+}
+
+.field:focus ~ label{
+    top: 0;
+    font-size: 1rem;
+}
+
+.field:focus{
+    border-bottom: solid 1.5px;
+}
+
+.btn-submit{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin-top: .5rem;
+    width: 100%;
+    height: 2rem;
 }
