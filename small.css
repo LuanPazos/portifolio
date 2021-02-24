@@ -371,14 +371,14 @@ header{
     position: absolute;
     bottom: 0;
     opacity: .8;
-    padding: 1rem;
+    padding: .5rem;
     text-shadow: 0.3rem 0.2rem 0.3rem rgba(0,0,0,0.6);
     transition: all .3s;
 }
 
 .card-info h2{
     font-family: var(--font-primary);
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     font-weight: 450;
     color: #eee;
 }
