@@ -301,6 +301,7 @@ header{
     display: flex;
     align-items: center;
     color: #4b4b4b;
+    justify-content: center;
 }
 
 .conhecimento-header i{
@@ -311,6 +312,7 @@ header{
     font-family: var(--font-secundary);
     font-size: 2rem;
     padding-left: 1rem;
+    text-align: center;
 }
 
 .conhecimento-text{
