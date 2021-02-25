@@ -110,6 +110,7 @@ header{
     opacity: 0.5;
     filter: blur(1.5px);
     animation: zoom 25s;
+    border-radius: 1rem;
 }
 
 @keyframes zoom{
@@ -369,7 +370,7 @@ header{
     position: absolute;
     bottom: 0;
     opacity: 1;
-    padding: .5rem;
+    padding: .3rem;
     text-shadow: 0.3rem 0.2rem 0.3rem rgba(0,0,0,0.6);
 }
 
