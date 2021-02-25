@@ -100,7 +100,7 @@ header{
     height: 100%;
     overflow: hidden;
     background-color: rgba(0,0,0,0.8) ;
-    border-radius: 1rem;
+    border-radius: .5rem;
 }
 
 .img-wrapper img{
@@ -110,7 +110,7 @@ header{
     opacity: 0.5;
     filter: blur(1.5px);
     animation: zoom 25s;
-    border-radius: 1rem;
+    border-radius: .5rem;
 }
 
 @keyframes zoom{
@@ -316,7 +316,7 @@ header{
 .conhecimento-text{
     font-family: var(--font-secundary);
     margin-top: 1rem;
-
+    text-align: center;
 }
 
 .conhecimentos-img-wrapper{
