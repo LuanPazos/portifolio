@@ -100,6 +100,7 @@ header{
     height: 100%;
     overflow: hidden;
     background-color: rgba(0,0,0,0.8) ;
+    border-radius: 1rem;
 }
 
 .img-wrapper img{
@@ -248,7 +249,7 @@ header{
 }
 
 .conhecimento:nth-child(1){
-    grid-column: 2/7;
+    grid-column: 2/9;
     grid-row: 1/3;
 }
 
@@ -263,7 +264,7 @@ header{
 }
 
 .conhecimento:nth-child(4){
-    grid-column: 11/16;
+    grid-column: 11/17;
     grid-row: 1/3;
 }
 
@@ -314,6 +315,7 @@ header{
 .conhecimento-text{
     font-family: var(--font-secundary);
     margin-top: 1rem;
+
 }
 
 .conhecimentos-img-wrapper{
@@ -342,7 +344,7 @@ header{
 
 .card{
     width: 33,3%;
-    height: 25rem;
+    height: 18rem;
     position: relative;
     top: 2rem;
 }
@@ -351,29 +353,24 @@ header{
     width: 100%;
     height: 100%;
     background-color: #262626;
-    border-radius: .5rem;
+    border-radius: 1rem;
 }
 
 .card-img-wrapper img{
     object-fit: cover;
     width: 100%;
     height: 100%;
-    opacity: .8;
-    transition: opacity .3s;
-    border-radius: .5rem;
-}
-
-.card:hover .card-img-wrapper img{
+    border-radius: 1rem;
     opacity: .5;
+    filter: blur(.6px);
 }
 
 .card-info{
     position: absolute;
     bottom: 0;
-    opacity: .8;
+    opacity: 1;
     padding: .5rem;
     text-shadow: 0.3rem 0.2rem 0.3rem rgba(0,0,0,0.6);
-    transition: all .3s;
 }
 
 .card-info h2{
@@ -426,11 +423,7 @@ header{
     cursor: pointer;
 }
 
-.card:hover .card-info{
-    bottom: 2rem;
-    opacity: 1;
-    visibility: visible;
-}
+
 
 .sessao-contato{
     width: 100%;
