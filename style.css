@@ -179,7 +179,7 @@ header{
 .sidebar{
     width: 20rem;
     height: 100vh;
-    background-color: #f6f0ff;
+    background-color: #e0dae9f3;
     position: fixed;
     top: 0;
     right: -20rem;
@@ -211,7 +211,7 @@ header{
 }
 
 .menu-link:hover{
-    color:#05F29B;
+    color:#10c482;
 }
 
 .social-media{
@@ -225,7 +225,7 @@ header{
 
 .social-media i{
     background-color: #555;
-    color: #f6f0ff;
+    color: #e0dae9f3;
     height: 2.5rem;
     width: 2.5rem;
     font-size: 2rem;
@@ -237,7 +237,7 @@ header{
 }
 
 .social-media i:hover{
-    background-color: #05F29B;
+    background-color: #10c482;
 }
 
 .conhecimentos{
